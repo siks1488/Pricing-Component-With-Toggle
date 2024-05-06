@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(47, 47, 47);
+    margin:0px;
+}
+.price{
+    display: block;
+}
+.basic{
+    position: absolute;
+    top:50%;
+    left:38%;
+    transform: translate(-50%,-50%);
+    white-space: nowrap;
+    background-color: rgba(217, 215, 215, 0.728);
+    padding:10px 50px;
+    border-radius: 20px;
+}
+.basic button{
+    cursor:pointer;
+    border:none;
+    background-color: rgb(69, 145, 182);
+    color:black;
+    padding:5px 30px;
+    border-radius: 13px;
+    color:white;
+    transition-duration: 0.5s;
+}
+.basic button:hover{
+    background-color: rgb(60, 127, 160);
+}
+.professional{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(69, 145, 182);
+    color:white;
+    padding:30px 70px;
+    border-radius: 20px;
+    font-size:20px;
+    box-shadow: 1px 7px 40px black;
+}
+.professional button{
+    cursor:pointer;
+    border:none;
+    background-color: rgb(217, 215, 215);
+    color:black;
+    padding:5px 30px;
+    border-radius: 13px;
+    color:rgb(0, 0, 0);
+    transition-duration: 0.5s;
+}
+.professional button:hover{
+    background-color: rgb(190, 190, 190);
+}
+
+.master{
+    position: absolute;
+    top:50%;
+    right:27%;
+    transform: translate(-50%,-50%);
+    white-space: nowrap;
+    background-color: rgba(217, 215, 215, 0.728);
+    padding:10px 50px;
+    border-radius: 20px;
+}
+.master button{
+    cursor:pointer;
+    border:none;
+    background-color: rgb(69, 145, 182);
+    color:black;
+    padding:5px 30px;
+    border-radius: 13px;
+    color:white;
+    transition-duration: 0.5s;
+}
+.master button:hover{
+    background-color: rgb(60, 127, 160);
+}
+.mo{
+    position: absolute;
+    top:23%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border:none;
+    background-color: rgb(69, 145, 182);
+    border-radius: 10px;
+    padding:10px 10px;
+    font-size: 15px;
+    cursor: pointer;
+    color:white;
+}
+.an{
+    position: absolute;
+    top:23%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border:none;
+    background-color: rgb(69, 145, 182);
+    border-radius: 10px;
+    padding:10px 10px;
+    font-size: 15px;
+    cursor: pointer;
+    color:white;
+}
+.hidden{
+    display:none;
+}
