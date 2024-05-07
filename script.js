@@ -10,6 +10,7 @@ const ann = function(){
     price3.textContent = "$109.99";
     annButt.classList.add("hidden");
 }
+
 const mon = function(){
     price1.textContent = "$19.99";
     price2.textContent = "$39.99";
