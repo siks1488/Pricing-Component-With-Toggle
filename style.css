@@ -5,6 +5,7 @@ body{
 .price{
     display: block;
 }
+
 .basic{
     position: absolute;
     top:50%;
@@ -15,6 +16,7 @@ body{
     padding:10px 50px;
     border-radius: 20px;
 }
+
 .basic button{
     cursor:pointer;
     border:none;
@@ -25,9 +27,11 @@ body{
     color:white;
     transition-duration: 0.5s;
 }
+
 .basic button:hover{
     background-color: rgb(60, 127, 160);
 }
+
 .professional{
     position: absolute;
     top:50%;
@@ -40,6 +44,7 @@ body{
     font-size:20px;
     box-shadow: 1px 7px 40px black;
 }
+
 .professional button{
     cursor:pointer;
     border:none;
@@ -50,6 +55,7 @@ body{
     color:rgb(0, 0, 0);
     transition-duration: 0.5s;
 }
+
 .professional button:hover{
     background-color: rgb(190, 190, 190);
 }
@@ -64,6 +70,7 @@ body{
     padding:10px 50px;
     border-radius: 20px;
 }
+
 .master button{
     cursor:pointer;
     border:none;
@@ -74,9 +81,11 @@ body{
     color:white;
     transition-duration: 0.5s;
 }
+
 .master button:hover{
     background-color: rgb(60, 127, 160);
 }
+
 .mo{
     position: absolute;
     top:23%;
@@ -90,6 +99,7 @@ body{
     cursor: pointer;
     color:white;
 }
+
 .an{
     position: absolute;
     top:23%;
